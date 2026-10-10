@@ -146,8 +146,8 @@ On Raspberry Pi OS, install OpenCV with `apt`, not `pip` (the `pip` version can 
 ```bash
 sudo apt update
 sudo apt install -y python3-opencv python3-gpiozero python3-numpy git
-git clone https://github.com/<your-username>/smart-traffic-light.git
-cd smart-traffic-light
+git clone https://github.com/Sonex12/Smart_Traffic_System-.git
+cd Smart_Traffic_System-
 ```
 
 Check it worked:
@@ -267,7 +267,7 @@ More detail in [docs/battery-power-plan.md](docs/battery-power-plan.md).
 ## Repository layout
 
 ```
-smart-traffic-light/
+Smart_Traffic_System-/
 ├── README.md
 ├── config.py
 ├── traffic_lights.py
